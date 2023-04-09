@@ -14,21 +14,9 @@ ob_start();
  * 
  */
 
-$config['base_url'] = "http://localhost/unitop/back-end/project/ismart.com/";
+$config['base_url'] = "http://localhost/demoShop/";
 
 
 $config['default_module'] = 'home';
 $config['default_controller'] = 'index';
 $config['default_action'] = 'index';
-
-
-
-
-
-
-
-
-
-
-
-
