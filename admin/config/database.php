@@ -16,10 +16,8 @@
  */
 
 $db = array(
-    'hostname' => 'localhost',
-    'username' => 'root',
-    'password' => '',
-    'database' => 'ismart.com',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'demoShop.com',
 );
-
-
