@@ -4,6 +4,9 @@
 function db_connect() {
     global $conn;
     $db = func_get_arg(0);
+	// Server chạy ngầm thì check lỗi nếu có 
+	// error_reporting(E_ALL);
+	// ini_set('display_errors', '1');
     $conn = mysqli_connect($db['hostname'], $db['username'], $db['password'], $db['database']);
     if (!$conn) {
         die("Kết nối không thành công " . mysqli_connect_error());

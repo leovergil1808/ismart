@@ -14,7 +14,7 @@ ob_start();
  * 
  */
 
-$config['base_url'] = "http://localhost/unitop/back-end/project/ismart.com/";
+$config['base_url'] = "ismart.lc";
 
 
 $config['default_module'] = 'home';
