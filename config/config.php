@@ -14,7 +14,7 @@ ob_start();
  * 
  */
 
-$config['base_url'] = "ismart.lc";
+$config['base_url'] = "https://ismart.lc/";
 
 
 $config['default_module'] = 'home';
